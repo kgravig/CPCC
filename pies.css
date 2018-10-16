@@ -1,0 +1,27 @@
+body {
+	background-color: grey;
+	
+}
+
+h1{
+	text-align: center;
+	color: Red;
+	background-color: #f1f1f1;
+	font-size:60px;
+	text-decoration: underline;
+
+
+}
+
+h2 {
+	text-align: center;
+	color: blue;
+	background-color: #606040;
+	font-size:40px;
+	text-decoration: underline;
+}
+
+#comments {
+	font-style: italic;
+	background-color : yellow;
+}

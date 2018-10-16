@@ -1,0 +1,89 @@
+<html>
+	<!--
+		This web page demonstrates lists.
+		
+		Lists in HTML come in 3 different forms:
+			- Ordered lists (numbered)
+			- Unordered lists (bullets)
+			- Descriptive lists (terms with definitions)
+		
+		Author: Mr. Arrington
+		Date: 	9/18/18
+	-->
+	<head>
+		<title>List Demo</title>
+	</head>
+	
+	<body>
+	<ul>
+	<li type = "none">
+			<a href="index.html">Home</a>
+			<a href="headings.html">Headings Demo</a>
+			<a href="paragraphs.html">Paragraph Demo</a>
+			<a href="lists.html">List Demo</a>
+	</li>
+	</ul>
+			
+		<h1>Ordered List Example</h1>
+		<!--
+		Use the type modifier to change the numbering type to  of an ordered list
+			type = "1" ( default ) numbers
+			type = "A" - uppercase letters
+			type = "a" - lowercase letters
+			type = "I" - uppercase Roman numerals
+			type = "i" - Lowercase Roman numerals
+			
+			You can also start at certain value
+			use the start modifier
+		-->
+		<ol  type = "A" Start = 50>
+			<li>Numbered List Item</li>
+			<li>Another Numbered List Item</li>
+			<li>And Another Numbered List Item</li>
+		</ol>
+		<h1>Unordered List Example</h1>
+		<!--
+		 Use the list style type modifier to change the symbol
+		 that is displayed for the unordered list
+		 
+			use list-style-type:disc - for the default bullets
+				list-style-type:circle - for circles
+				other options are square, none(unmarked)
+			
+		-->
+		<ul type="circle">
+			<li>Bulleted List Item</li>
+			<li>Another Bulleted List Item</li>
+			<li>And Another Bulleted List Item</li>
+		</ul>
+		<h1>Descriptive List Example</h1>
+		<dl>
+			<dt>Descriptive Term</dt>
+			<dd>Definition of Descriptive Term</dd>
+			<dt>Another Descriptive Term</dt>
+			<dd>Another Definition of Another Descriptive Term</dd>
+		</dl>
+		<!-- Nested List-->
+		<h1>Nested List Example</h1>
+		<ol>
+			<li>Numbered List Item</li>
+					<!-- Nested List-->
+			<ul type="circle">
+			<li>Bulleted List Item</li>
+			<li>Another Bulleted List Item</li>
+			<li>And Another Bulleted List Item</li>
+		</ul>	
+			<li>Another Numbered List Item</li>
+			<li>And Another Numbered List Item</li>
+		</ol>
+	<ul>
+	<li type = "none">
+			<a href="index.html">Home</a>
+			<a href="headings.html">Headings Demo</a>
+			<a href="paragraphs.html">Paragraph Demo</a>
+			<a href="lists.html">List Demo</a>
+	</li>
+	</ul>
+	
+	</body>
+</html>
