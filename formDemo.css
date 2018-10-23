@@ -1,12 +1,21 @@
 	form {
 		  /* Just to center the form on the page */
 		  margin: 0 auto;
-		  width: 400px;
+		  width: 800px;
 		  /* To see the outline of the form */
 		  padding: 1em;
 		  border: 1px solid #CCC;
 		  border-radius: 1em;
 		}
+		
+fieldset {
+	color: orange;
+
+}
+
+legend {
+	color: green;
+}
 
 		form div + div {
 		  margin-top: 1em;
@@ -15,17 +24,17 @@
 		label {
 		  /* To make sure that all labels have the same size and are properly aligned */
 		  display: inline-block;
-		  width: 90px;
-		  text-align: right;
+		  text-align: Left;
 		}
 
+		
 		input, textarea {
 		  /* To make sure that all text fields have the same font settings
 			 By default, textareas have a monospace font */
 		  font: 1em sans-serif;
 
 		  /* To give the same size to all text fields */
-		  width: 300px;
+		  
 		  box-sizing: border-box;
 
 		  /* To harmonize the look & feel of text field border */
